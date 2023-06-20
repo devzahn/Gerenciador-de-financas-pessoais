@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(42, 42, 42);
+}
+.container {
+    max-width: 960px;
+  }
+
+#svg-logo{
+    font-size: 6em;
+    color: white;
+}
+#return-painel{
+    border: 2px solid white;
+    border-radius: 1rem;
+    border-radius: 1rem;
+}
+#return-painel a{
+    font-size: 1.5rem;
+}
+.button-add-remove{
+    display: flex;
+    gap: 1rem;
+
+}
+@media (max-width:570px ){
+    .button-add-remove{
+        flex-wrap: wrap;
+    }
+}
